@@ -10,7 +10,6 @@
 import os  # To check for already existing files and delete them
 import numpy as np
 import math
-from __future__ import print_function
 
 def output_reader(filename, separator='\t', output=None,  # noqa C901
                   rows_to_skip=0, header=0, delete=False, structure=False,
